@@ -14,7 +14,7 @@ public class LoginModelImpementation implements LoginModel {
      * TODO: remove after connecting to a real authentication system.
      */
     private static final String[] DUMMY_CREDENTIALS = new String[] {
-            "test@galileo.edu", "testtest"
+            "test@galileo.edu:testtest"
     };
 
 

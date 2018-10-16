@@ -29,7 +29,8 @@ public class LoginPresenterImplementation implements LoginPresenter,LoginModel.o
 
     @Override
     public void onSuccess() {
-
+        loginView.ShowProgress(false);
+        loginView.SuccessAction();
     }
 
     @Override

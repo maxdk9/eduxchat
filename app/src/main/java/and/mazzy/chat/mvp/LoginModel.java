@@ -2,6 +2,8 @@ package and.mazzy.chat.mvp;
 
 public interface LoginModel {
     interface  onLoginFinishedListener{
+
+
         void onCancelled();
 
         void onPasswordError();
